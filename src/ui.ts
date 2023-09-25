@@ -40,9 +40,6 @@ async function createElms() {
       c.tbody.appendChild(tr);
       c.input.value = "";
     });
-    // c.input.addEventListener("click", () =>{
-    //   c.tbody.appendChild(tr);
-    // });
     c.input.addEventListener('input', () => {
       console.log(c.input.value);
       let inpVal = c.input.value.toLowerCase();
@@ -55,19 +52,8 @@ async function createElms() {
   }
 }
 
-// Hamburger
-
-function hamburger() {
-  c.hamburger.onclick = () => {
-    c.categories.classList.toggle('d-flex');
-  };
-}
-
-// initialization
-
 export function iniit() {
   createElms();
   Spinner();
-  hamburger();
   genre.createGenres();
 }

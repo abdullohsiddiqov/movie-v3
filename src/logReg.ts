@@ -38,7 +38,8 @@ export function logIn() {
     c.login.style.display = 'none';
     c.navbar.style.display = 'block';
     c.main.style.display = 'block';
-    c.registerBtn.innerText = 'Logout';
+    c.registerBtn.style.display = 'none';
+    c.nav_link_logout.style.display = 'block';
     c.loginBtn.innerText = `${c.inpRegUserName.value}`;
   });
 }

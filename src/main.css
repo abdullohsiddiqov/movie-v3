@@ -138,3 +138,7 @@ body {
   justify-content: center;
   gap: 30px;
 }
+
+.nav-link-logout{ 
+  display: none;
+}

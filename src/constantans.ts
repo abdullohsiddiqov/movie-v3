@@ -1,6 +1,7 @@
 export let spinner: HTMLDivElement = document.querySelector('.spinner-border');
 export let tbody: HTMLTableElement = document.querySelector('#tbody');
 export let all = document.querySelector(".all");
+export let nav_link_logout = document.querySelector(".nav-link-logout") as HTMLElement;
 export let btn = document.querySelector('.btn-danger');
 export let list_group_item = document.querySelector('.list-group-item') as HTMLElement;
 export let counterMovies: HTMLSpanElement = document.querySelector('.count-movie');
